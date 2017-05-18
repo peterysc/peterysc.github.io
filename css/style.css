@@ -2,80 +2,49 @@ body{
 	background-color: #F5F5F5;
 }
 
-div{
-    padding-left:0px;
-    padding-right:0px;
-    margin-left: 0px;
-    margin-right: 0px;
+#outerlayer{
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-left:7.5%;
+    margin-right:7.5%;
+
+    width: 85%;
+    height: 80vh;
+
+    background-color:#FFFFFF;
 }
 
-#background{
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	border: 1px;
-	border-color: #c6c6c6;
-    box-shadow: 0px 0px 2px;
-	width: 1250px;
-	height: 650px;
-	overflow:auto;
-    background-color: #FFFFFF;
-}
-
-a{
-	display:block;
-	text-align:center;
-	color: #00b6f9;
-    border-color: #068cd6;
-}
-
-a:hover{
-	color: #0193DD;
-}
-
-img{
-    height:240px;
-    width: 240px;
-    border-radius:50%;
-    border-style: solid;
-    border-color: #000000;
-    border-width: 1px;
-}
-        
-section{   
-    padding-left:0px;
-    padding-right:0px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-        
-nav{
-    padding-top:30px;
-    padding-bottom:30px;
-}
-
-footer{
-    padding-top:15px;
-}
-
-.border-right{
-    border-right-color: #ededed;
-    border-right-width: 1px;
-    border-right-style: solid;
-}
-
-#whoAmI{
-    padding-left:50px;
-    padding-right:30px;
-}
-.row{
-    padding-top:30px;
-    padding-bottom: 30px;
+#firstRow{
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
     border-bottom-color: #ededed;
     border-bottom-style: solid;
     border-width: 1px;
+}
+
+#pictureContainer{
+    border:0em;
+    width: 50%;
+    padding-left:1%;
+    padding-right:1%;
+}
+
+#aboutMeDiv{
+    border:0em;
+    width: 50%;
+    margin-right: -5%
+}
+
+#secondRow{
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+}
+
+.moreInfo{
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left:10%;
+    padding-right:10%;
 }
 
 #socialMedia li{
@@ -83,11 +52,14 @@ footer{
     float:left;
 }
 
-#facebookIcon{
-    padding: 20px 20px 20px 20px;
-    font-size: 50px;
-    color: #00b6f9;
-    border-color: #068cd6;
+#linkedInDiv{
+    width:50%;
+    float:left;
+}
+
+#githubDiv{
+    width:50%;
+    float:right;
 }
 
 #linkedinIcon{
