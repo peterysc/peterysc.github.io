@@ -20,7 +20,11 @@ body{
     border-bottom-color: #ededed;
     border-bottom-style: solid;
     border-width: 1px;
+
+    height:70%;
 }
+
+
 
 #pictureContainer{
     border:0em;
@@ -29,15 +33,138 @@ body{
     padding-right:1%;
 }
 
+#pictureDiv{
+    height:250px;
+    width:250px;
+    border-style: dotted;
+    border-radius: 50%;
+    display: inline-block;
+}
+
 #aboutMeDiv{
     border:0em;
     width: 50%;
-    margin-right: -5%
+
 }
 
 #secondRow{
-    padding-top: 7.5%;
-    padding-bottom: 7.5%;
+    margin-top:2.5%;
+    display: inline;
+    height:10%;
+}
+
+#profileDiv{
+    border-right-color: #ededed;
+    border-right-style: solid;
+    border-width: 1px;
+
+    padding-top: 5%;
+    background: center;
+    background-image:url("../assets/profile_icon.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+#profileDiv:hover{
+    background-color: #000000;
+    opacity: 0.5;
+}
+
+#portfolioDiv{
+    border-right-color: #ededed;
+    border-right-style: solid;
+    border-width: 1px;
+
+    padding-top: 5%;
+    background: center;
+    background-image:url("../assets/portfolio_icon.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+#portfolioDiv:hover{
+    background-color: #000000;
+    opacity: 0.5;
+}
+
+#resumeDiv{
+    border-right-color: #ededed;
+    border-right-style: solid;
+    border-width: 1px;
+
+    padding-top: 5%;
+    background: center;
+    background-image:url("../assets/resume_icon.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+#resumeDiv:hover{
+    background-color: #000000;
+    opacity: 0.5;
+}
+
+#contactDiv{
+    padding-top: 5%;
+    background: center;
+    background-image:url("../assets/contact_icon.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+#contactDiv:hover{
+    background-color: #000000;
+    opacity: 0.5;
+}
+
+#profileTextInVector{
+    font-family: sans-serif;
+    margin-left:-3px;
+    width:50%;
+    margin-top:0;
+    padding-top:0;
+    /*visibility: hidden;*/
+    font-size: 25px;
+}
+
+#portfolioTextInVector{
+    font-family: sans-serif;
+    margin-left:-15px;
+    float:left;
+    margin-top:0;
+    padding-top:0;
+    /*visibility: hidden;*/
+    font-size: 25px;
+    background-color: #FFFFFF;
+    opacity:0.5;
+}
+
+#resumeTextInVector{
+    font-family: sans-serif;
+    margin-left:-12px;
+    float:left;
+    margin-top:0;
+    padding-top:0;
+    /*visibility: hidden;*/
+    font-size: 25px;
+    background-color: #FFFFFF;
+    opacity:0.5;
+}
+
+#contactTextInVector{
+    font-family: sans-serif;
+    margin-left:-13px;
+    float:left;
+    margin-top:0;
+    padding-top:0;
+    /*visibility: hidden;*/
+    font-size: 25px;
+    background-color: #FFFFFF;
+    opacity:0.5;
+}
+
+.vectorText{
+    color:#303030;
 }
 
 .moreInfo{
