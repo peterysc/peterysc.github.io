@@ -18,8 +18,15 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+    <!-- jquery cdn -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+
+    <!-- jquery UI cdn -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+            integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
             crossorigin="anonymous"></script>
     
 	
@@ -35,15 +42,15 @@
                     <div class="pictureSpace" id="pictureDivOuterLayer"></div>
                 </div>
                 <div id="aboutMeDiv" class="col-sm-6">
-                    <h1 class="text-center">Hello world! I'm Peter</h1>
-                    <p class="text-center">I aspired to be a fullstack developer one day. <br>I really enjoy solving complex problems and learning new things. I wish to help others achieve their dreams via what I know best; technology. <br> In order to find out more about me, please check out my <span id="profileUnderline">profile!</span></p>
+                    <h1 class="text-center">Hello world, my name is Peter!</h1>
+                    <p class="text-center">I am currently attending UBC to finish my undergraduate degree. <br>I really enjoy solving complex problems and learning new things. <br>I wish to help others achieve their dreams via what I know best; technology. <br> In order to find out more about me, please check out my <span id="profileUnderline">profile!</span></p>
                     <div class="text-center socialMedia" id="linkedInDiv">
-                        <a href="https://www.linkedin.com/in/peterysc/" target="_blank">
+                        <a id="linkedInAddr" href="https://www.linkedin.com/in/peterysc/" target="_blank" title="Add me on LinkedIn!">
                             <i id="linkedinIcon" class="fa fa-linkedin" aria-hidden="true"></i>
                         </a>
                     </div>
                     <div class="text-center socialMedia" id="githubDiv">
-                        <a href="https://github.com/peterysc" target="_blank">
+                        <a id="githubAddr" href="https://github.com/peterysc" target="_blank" title="Check out my github!">
                             <i id="githubIcon" class="fa fa-github" aria-hidden="true"></i>
                         </a>
                     </div>

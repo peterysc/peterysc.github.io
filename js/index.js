@@ -16,3 +16,17 @@ function hideText(){
 	var textChildId = textChild.attr("id");
 	$("#"+textChildId).css('visibility','hidden')
 }
+
+$("#linkedInAddr").tooltip({
+	show: {
+        effect: "slideDown",
+        delay: 250
+    }
+})
+
+$("#githubAddr").tooltip({
+	show: {
+        effect: "slideDown",
+        delay: 250
+    }
+})
