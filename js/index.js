@@ -30,3 +30,8 @@ $("#githubAddr").tooltip({
         delay: 250
     }
 })
+
+$("#profileText").click(function(){
+	console.log("clicked")
+	$("#myModal").modal('show');
+});
