@@ -2,6 +2,18 @@ body{
 	background-color: #F5F5F5;
 }
 
+#introSection{
+    background-color: #98a2db;
+}
+
+#expSection{
+    background-color: #9acffa;
+}
+
+#contactSection{
+    background-color: #dbefdc;
+}
+
 #outerlayer{
     margin-top:4%;
     margin-bottom:4%;
