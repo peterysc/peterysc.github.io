@@ -224,3 +224,23 @@ body{
 #social{
     padding-left: 150px;
 }        
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+    position: relative;
+  }
+
+  #linkedInDiv { 
+    background: #000000;
+    position: relative;
+    z-index: 0;
+    width: 82.5%;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    color: #FFFFFF;
+    float: left;
+    margin-left: 16px;
+  }

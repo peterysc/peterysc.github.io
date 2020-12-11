@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PETER CHUNG</title>
+    <title>604 Represent</title>
     <link rel="shortcut icon" href="assets/favicon.png" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,83 +20,47 @@
     <!-- Material Design for Bootstrap CSS -->
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
 
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjH1jMyJ1Vzt8s25D5MGisYm_FHUmMEtM&callback=initMap">
+    </script>
 </head>
 
 <body>
     <div id="outerlayer">
+        <div>BACKGROUND PIC 1</div>
         <div id="introSection" class="container-fluid">
             <h1>About me</h1>
+
+            <div>Hi there, my name is Peter and welcome to my fancy (*abruptly boot-strapped*) personal webpage!</div>
+
+            <div>I am currently based in Seattle, Washington. I love every aspect of what PNW can offer - from the mighty, Rockies curves, the endless but serene rain/shower and to the rollercoaster ride Seahawks generously offer every game...</div>
+            <div>I'm a big outdoorsy person. I love riding my roadbike when the weahter permits. I love hitting up the slopes to shred the fresh powder with my snowboard. During the time I stay indoors, I'm always looking for documentaries like Social Dilemma
+                or cookings shows like the Chef TV show on Netflix. I also like to read - my latest companion has been the book, Flow, by Mihaly Csikszentmihalyi. With the quarantine restrictions, this book really has hit home for me.
+            </div>
+
+            <div>For a bit of more of a professional introduction, I am currently working at Microsoft as a Software Engineer II. I work with fault tolerant distributed systems in CAP CoreServices team under Business Application Group. I have worked in highly available API developments
+                and have a decent exposure in full-stack engineering. Prior to my career, I completed the bachelors of Science, majoring in Computer Science, at the University of British Columbia (go t-birds!).
+            </div>
+
+            <div>I have detailed my past experiences below. Holla at your boy if you find my work experience somehow relevant/benefiial to your career. Feel free to holla for anything really - extra points if you know a good poutine joint!</div>
         </div>
         <div id="expSection" class="container-fluid">
             <h1>Experience</h1>
+
+            <div>Microsoft Sept 2020 to Current</div>
+            <div>Microsoft July 2019 to Aug 2020</div>
+            <div>SAP May to Dec 2018</div>
+            <div>SAP Jan to Apr 2018</div>
+            <div>AWS June to Aug 2017</div>
+
         </div>
         <div id ="contactSection" class="container-fluid">
             <h1>Contact</h1>
-        </div>
-        <div id="container">
-            <div id="firstRow" class="row">
-                <div id="pictureContainer" class="col-sm-6 text-center">
-                    
-                    <div class="pictureSpace" id="pictureDiv" class="text-center"></div>
-                    <div class="pictureSpace" id="pictureDivOuterLayer"></div>
-                </div>
-                <div id="aboutMeDiv" class="col-sm-6">
-                    <h1 class="text-center">Hello world, my name is Peter!</h1>
-                    <p class="text-center">I am currently attending UBC to finish my undergraduate degree. <br>I really enjoy solving complex problems and learning new things. <br>I wish to help others achieve their dreams via what I know best; technology. <br> If you are curious of my journey so far, please check out my <span id="profileUnderline">profile!</span></p>
-                    <div class="text-center socialMedia" id="linkedInDiv">
-                        <a id="linkedInAddr" href="https://www.linkedin.com/in/peterysc/" target="_blank" title="Add me on LinkedIn!">
-                            <i id="linkedinIcon" class="fa fa-linkedin" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="text-center socialMedia" id="githubDiv">
-                        <a id="githubAddr" href="https://github.com/peterysc" target="_blank" title="Check out my github!">
-                            <i id="githubIcon" class="fa fa-github" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div id="secondRow" class="row">
-                <div id="profileDiv" class="moreInfo col-sm-3 text-center">
-                    <div class="vectorText" id="profileTextInVector">
-                        <p class="actualText" id="profileText">Profile</p>
-                    </div>
-                </div>
-                <div id="portfolioDiv" class="moreInfo col-sm-3 text-center">
-                    <div class="vectorText" id="portfolioTextInVector">
-                        <p class="actualText">Portfolio</p>
-                    </div>
-                </div>
-                <div id="resumeDiv" class="moreInfo col-sm-3 text-center">
-                    <div class="vectorText" id="resumeTextInVector">
-                        <a class="actualText" href="https://drive.google.com/file/d/1RvaQdBQHVKR9k0OrA70s8OTldJZvR4K3/view?usp=sharing" target="_blank">Resume</a>
-                    </div>
-                </div>
-                <div id="contactDiv" class="moreInfo col-sm-3 text-center">
-                    <div class= "vectorText" id="contactTextInVector">
-                        <p class="actualText">Contact</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+            <div id='map'></div>
+            <div class="text-center socialMedia over_map" id="linkedInDiv">
+                <a id="linkedInAddr" href="https://www.linkedin.com/in/peterysc/" target="_blank" title="Add me on LinkedIn!">
+                    <i id="linkedinIcon" class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
             </div>
         </div>
     </div>
@@ -106,6 +70,7 @@
     <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
     <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
     <script src="js/index.js"></script>
+    <script src="js/googleMaps.js"></script>
 </body>
 
 </html>
