@@ -4,6 +4,10 @@ body {
     color: #5a5a5a;
 }
 
+.lead{
+    padding:1%    
+}
+
 #introSection{
     padding-top: 1%;
     padding-bottom:1%;
@@ -12,8 +16,7 @@ body {
 
 .innerDiv{
     background-clip: content-box;
-    background-color: white;
-    opacity: 0.7;
+    background-color: #F2F2F2;
     overflow-wrap: break-word;
 }
 
@@ -116,8 +119,6 @@ body {
     border-color: #068cd6;
 }
 
-
-
 #social{
     padding-left: 150px;
 }        
@@ -144,10 +145,6 @@ body {
 
   /* Featurettes
 ------------------------- */
-
-.featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-  }
   
   /* Thin out the marketing headings */
   .featurette-heading {
