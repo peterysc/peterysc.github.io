@@ -8,6 +8,14 @@ body {
     padding:1%    
 }
 
+.introIcon{
+    color: #495057;
+}
+
+.introIcon2{
+    color:#4C6EF5;
+}
+
 #introSection{
     padding-top: 1%;
     padding-bottom:1%;
@@ -33,14 +41,30 @@ body {
     border-radius: 15px;
 }
 
+.contactDiv{
+    margin: 0.5%;
+}
+
+#contactForm{
+    text-align: center;
+}
+
 #contactSection{
     background-color: #dbefdc;
     padding-top: 1%;
     padding-bottom: 1%;
 }
 
-#contactForm{
-    padding:1%;
+#workInProgress{
+    text-align: center;
+}
+
+.progress{
+    height: 30px;
+}
+
+.progress-bar-animated{
+    width: 57%;
 }
 
 #outerlayer{
