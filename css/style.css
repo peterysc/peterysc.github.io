@@ -48,7 +48,7 @@ body {
     background-clip: content-box;
     background-color: #F2F2F2;
     overflow-wrap: break-word;
-    border-radius: 18px;
+    border-radius: 35px;
 }
 
 #expSection{
@@ -205,6 +205,66 @@ a {
         font-family: 'PT Sans', sans-serif;
         font-size: 40px;
     }
+}
+
+@media only screen
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3)
+    and (orientation: portrait) {
+        #expHeader{
+            padding-top: 3%;
+        }
+
+        #contactHeader{
+            padding-top: 3%;
+        }
+        
+        #personalProjectHeader{
+            padding-top: 3%;
+        }
+
+        #jobDesc0{
+            margin-bottom: 2.5%;
+        }
+
+        #personalProjectDesc0{
+            margin-bottom: 2.5%;
+        }
+
+        .progress{
+            margin-bottom: 1%;
+        }
+}
+
+@media only screen 
+    and (min-device-width: 414px) 
+    and (min-device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    and (orientation: portrait) { 
+        #expHeader{
+            padding-top: 3%;
+        }
+    
+        #contactHeader{
+            padding-top: 3%;
+        }
+        
+        #personalProjectHeader{
+            padding-top: 3%;
+        }
+    
+        #jobDesc0{
+            margin-bottom: 2.5%;
+        }
+    
+        #personalProjectDesc0{
+            margin-bottom: 2.5%;
+        }
+    
+        .progress{
+            margin-bottom: 1%;
+        }
 }
 
 .back-to-top {
