@@ -34,6 +34,22 @@ body {
     padding-bottom: 1%;
 }
 
+a {
+    color: #26A69A;
+}
+
+.btn-primary {
+    background-color: #26A69A;
+}
+
+.btn-primary:hover {
+    background-color: #26A69A;
+}
+
+.progress-bar{
+    background-color: #26A69A;
+}
+
 .jobDescDiv{
     margin: 1%;
     padding: 0.2%;
