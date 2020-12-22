@@ -73,10 +73,12 @@ a {
 
 .btn-primary {
     background-color: #26A69A;
+    border-color: #26A69A;
 }
 
 .btn-primary:hover {
     background-color: #26A69A;
+    border-color: #26A69A;
 }
 
 .progress-bar{
