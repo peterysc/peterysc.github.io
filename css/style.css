@@ -17,21 +17,54 @@ body {
 }
 
 #introSection{
+    margin-bottom: 0.3%;
+}
+
+#expSection{
+    margin-bottom: 0.3%;
+}
+
+#personalProjectSection{
+    margin-bottom: 0.3%;
+}
+
+#contactSection{
+    margin-bottom: 0.3%;
+}
+
+#profilePic{
+    border-radius: 40px;
+}
+
+#introSection{
     padding-top: 1%;
     padding-bottom:1%;
     background-color: #98a2db;
+    border-radius: 15px;
+    border: 1px solid #909ce3;
 }
 
 .innerDiv{
     background-clip: content-box;
     background-color: #F2F2F2;
     overflow-wrap: break-word;
+    border-radius: 40px;
 }
 
 #expSection{
     background-color: #9acffa;
     padding-top: 1%;
     padding-bottom: 1%;
+    border-radius: 15px;
+    border: 1px solid #8ed0ff;
+}
+
+#introP{
+    padding-top:0%;
+}
+
+#jobDesc4{
+    margin-top:0%;
 }
 
 a {
@@ -50,10 +83,14 @@ a {
     background-color: #26A69A;
 }
 
+.sectionHeader{
+    margin-bottom: 0%;
+}
+
 .jobDescDiv{
     margin: 1%;
     padding: 0.2%;
-    border: 2px solid rgba(0,0,0,.125);
+    border: 2px solid #87cefa;
     border-radius: 15px;
 }
 
@@ -65,10 +102,51 @@ a {
     text-align: center;
 }
 
+#personalProjectSection{
+    background-color: #feaa8f ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 15px;
+    border: 1px solid #ffa381;
+}
+
+.personalProjectDescDiv{
+    margin: 1%;
+    padding: 0.2%;
+    border: 2px solid #ffa381;
+    border-radius: 15px;
+}
+
+.personalProjectNoteDiv{
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 0.2%;
+    padding-right: 0.2%;
+    padding-bottom: 0.4%;
+}
+
+#personalProjectDesc3{
+    margin-top:0%;
+}
+
+.customBadges{
+    font-size:10px;
+}
+
 #contactSection{
     background-color: #dbefdc;
     padding-top: 1%;
     padding-bottom: 1%;
+    border-radius: 15px;
+    border: 1px solid #d8f2da;
+}
+
+#personalProjectHeader{
+    padding-bottom: 0.2%;
+}
+
+#contactHeader{
+    padding-bottom: 0%;
 }
 
 #workInProgress{
@@ -127,4 +205,13 @@ a {
         font-family: 'PT Sans', sans-serif;
         font-size: 40px;
     }
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background-color: #495057;
+    color: white;
 }
