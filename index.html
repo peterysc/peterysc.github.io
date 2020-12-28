@@ -58,6 +58,10 @@
                 <h2 class="sectionHeader featurette-heading">About myself</h2>
                 <p id="introP" class="lead">Hi there, my name is Peter :^) I'm a strong believer of <b><i>Fail Fast</i></b> and learning is at my core. I really enjoy programming and solving problems. I absolutely enjoy finding simpler solutions to complex problems. I am always looking forward to learn something new and share it with others.
                     <br><br>I am currently based in Seattle, Washington. I love every aspect of what Seattle can offer - from the majestic, sublime PNW curves, to the endless but serene rain/showers and finally, the emotional roller coaster ride Seahawks generously offer their fans every game...
+                    <button id="seahawksJokeBtn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Exhibit A
+                    </button>
+                    
                     <br><br>
                   
                     When the weather permits, I try my best to stay outdoors - I love riding my roadbike and hitting the slopes to shred on fresh powder with my snowboard. 
@@ -285,14 +289,32 @@
                 <div id='map' class="col-xs-12"></div>
             </div>
         </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Being a Seahawks fan ain't easy</h5>
+                        <button type="button" class="modalClose close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img id="seahawksJokeImg" src="assets/seahawks_fans.jpg">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="modalClose btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up fa-3x"></i></a>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
-    <script src="js/index.js"></script>
     <script src="js/googleMaps.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </main>

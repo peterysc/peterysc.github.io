@@ -29,6 +29,14 @@ $(document).ready(function(){
 			}, 1000);
 		return false;
 	});
+
+	$('#seahawksJokeBtn').click(function() {
+		$('#exampleModalLong').modal('show');
+	  });
+	
+	$('.modalClose').click(function(){
+		$('#exampleModalLong').modal('hide');
+	})
 });
 
 function scrollSpyToSection(section){
@@ -36,3 +44,4 @@ function scrollSpyToSection(section){
 		scrollTop: $(section).offset().top
 	}, 1000);
 }
+
