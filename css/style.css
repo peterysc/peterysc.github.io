@@ -1,266 +1,698 @@
-body{
-	background-color: #F5F5F5;
-}
-
-.innderDivH1{
-    opacity: 1.0 !important;
-}
-
-#introSection{
-    background-color: #98a2db;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-#introInnerDiv{
-    background-color: white;
-    opacity: 0.7;
-    padding-left: 1%;
-    padding-right: 1%;
-    overflow-wrap: break-word;
-    float: left;
-    width: 76%;
-}
-
-#expSection{
-    background-color: #9acffa;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-#expSectionInnerDiv{
-    background-color: white;
-    opacity: 0.7;
-    padding-left: 1%;
-    padding-right: 1%;
-    float: left;
-    width: 100%;
-}
-
-#contactSection{
-    background-color: #dbefdc;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-#contactSectionInnerDiv{
-    background-color: white;
-    opacity: 0.7;
-    padding-left: 1%;
-    padding-right: 1%;
-    float: left;
-    width: 100%;
-}
-
-#outerlayer{
-    margin-top:4%;
-    margin-bottom:4%;
-    margin-left:7.5%;
-    margin-right:7.5%;
-
-    border-radius: 1%;
-
-    width: 85%;
-    height: 80vh;
-
-    background-color:#FFFFFF;
-}
-
-#firstRow{
-    padding-top: 7.5%;
-    padding-bottom: 7.5%;
-    border-bottom-color: #ededed;
-    border-bottom-style: solid;
-    border-width: 1px;
-
-    height:70%;
-}
-
-#profilePicDiv{
-    background-image: url(../assets/peter_pic.jpg);
+.mainSection{
+    background-image: url("../assets/seattle_background.jpg");
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    width: 500px;
-    height: 600px;
-    float: left;
+    width: 100%;
+    height: 1000px;
+    margin-right:0px;
+    padding:12% 15% 12% 15%;
+    overflow: hidden;
 }
 
-#pictureContainer{
-    border:0em;
-    width: 50%;
-    padding-left:1%;
-    padding-right:1%;
-}
-
-#pictureDivOuterLayer{
-    height:260px;
-    width:260px;
-
-    border-radius: 50%;
-
-    display: inline-block;
-    background-color: #ededed;
-    margin-top:-1.5%;
-
-    position: absolute; 
-    z-index: 1;
-    left:195px;
-    top:5px;
-}
-
-#secondRow{
-    margin-top:2.5%;
-    display: inline;
-    height:10%;
-}
-
-#profileDiv{
-    border-right-color: #ededed;
-    border-right-style: solid;
-    border-width: 1px;
-
-    padding-top: 5%;
-    background: center;
-    background-image:url("../assets/profile_icon.png");
-    background-size: 50%;
-    background-repeat: no-repeat;
-}
-
-#portfolioDiv{
-    border-right-color: #ededed;
-    border-right-style: solid;
-    border-width: 1px;
-
-    padding-top: 5%;
-    background: center;
-    background-image:url("../assets/portfolio_icon.png");
-    background-size: 50%;
-    background-repeat: no-repeat;
-}
-
-#resumeDiv{
-    border-right-color: #ededed;
-    border-right-style: solid;
-    border-width: 1px;
-
-    padding-top: 5%;
-    background: center;
-    background-image:url("../assets/resume_icon.png");
-    background-size: 50%;
-    background-repeat: no-repeat;
-}
-
-#contactDiv{
-    padding-top: 5%;
-    background: center;
-    background-image:url("../assets/contact_icon.png");
-    background-size: 50%;
-    background-repeat: no-repeat;
-}
-
-#profileTextInVector{
-    margin-left:-3px;
-}
-
-#portfolioTextInVector{
-    margin-left:-15px;
-}
-
-#resumeTextInVector{
-    
-    margin-left:-12px;
-}
-
-#contactTextInVector{
-    font-family: sans-serif;
-    margin-left:-13px;
-}
-
-#secondRow .moreInfo .vectorText .actualText{
-    opacity: 0.8;
-    font-family: sans-serif;
-    font-style: bold;
-    color:#303030;
-    font-size: 25px;
-    margin:0;
+#secondMainSection{
+    height:450px;
     padding:0;
 }
 
-.moreInfo{
-    padding-top:5%;
-    padding-bottom:5%;
-    padding-left:10%;
-    padding-right:10%;
+.jobInfo{
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-.moreInfo:hover{
-    opacity: 0.75;
+.introIcon{
+    color: #495057;
 }
 
-.vectorText{
-    visibility: hidden;
-    float:left;
-    margin-top:0;
-    padding-top:0;
-    background-color: #FFFFFF;
-    text-decoration: underline;
+.introIcon2{
+    color:#4C6EF5;
 }
 
-#profileUnderline{
-    text-decoration: underline;
+#expHeaderSection{
+    margin-left:10%;
+    margin-right:10%;
 }
 
-#socialMedia li{
-    display: inline;
-    float:left;
+#accordion{
+    margin-left: 10%;
+    margin-right:10%;
 }
 
-#linkedInDiv{
-    width:50%;
-    float:left;
+.personalProjectDate{
+    float: right;
+    margin-top:0.5%;
 }
 
-#githubDiv{
-    width:50%;
-    float:right;
+.jobDescriptionSection{
+    margin-left:10%;
+    margin-right:10%;
+    padding-top:1%;
 }
 
-#linkedinIcon{
-    padding: 20px 20px 20px 20px;
-    font-size: 50px;
-    color: #00b6f9;
-    border-color: #068cd6;
-}
-        
-#githubIcon{
-    padding: 20px 20px 20px 20px;
-    font-size: 50px;
-    color: #00b6f9;
-    border-color: #068cd6;
+.jobDescText{
+    font-size: 18px;
 }
 
+.jobDescText li{
+    padding-bottom: 1%;
+}
 
-
-#social{
-    padding-left: 150px;
-}        
-
-#map {
-    height: 400px;
-    /* The height is 400 pixels */
+.msftJobInfo{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-image: url("../assets/ms_background.jpg");
     width: 100%;
-    /* The width is the width of the web page */
-    position: relative;
-  }
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 
-  #linkedInDiv { 
-    background: #000000;
-    position: relative;
-    z-index: 0;
-    width: 82.5%;
-    opacity: 0.9;
-    filter: alpha(opacity=90);
-    color: #FFFFFF;
-    float: left;
-    margin-left: 16px;
-  }
+.msftJobInfo span{
+    background-color: #747a76;
+    color:white;
+    padding-left: 0.2%;
+    padding-right: 0.2%;
+}
+
+.msftJobInfo a{
+    color: white;
+}
+
+.msftJobInfo a:hover{
+    color: white;
+}
+
+.sapJobInfo{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-image: url("../assets/web_dev.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0px 200px;
+    text-align: right;
+}
+
+.sapJobInfo span{
+    background-color: #747a76;
+    color:white;
+    padding-left: 0.2%;
+    padding-right: 0.2%;
+}
+
+.awsJobInfo{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-image: url("../assets/data_background.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0px -500px;
+    background-repeat: no-repeat;
+}
+
+.awsJobInfo span{
+    background-color: #747a76;
+    color:white;
+    padding-left: 0.2%;
+    padding-right: 0.2%;
+}
+
+#quickIntro{
+    background-image: url("../assets/bash_background.png");
+    background-size: cover;
+    color: black;
+    width: 45vw;
+    height: 30vh + 30vw;
+    overflow:hidden;
+    margin: auto;
+}
+
+#introPicDiv{
+    padding:8% 5% 10% 5%;
+    text-align: center;
+}
+
+#introTitles{
+    padding:10% 5% 10% 5%;
+    text-align: center;
+}
+
+#quickIntroPic{
+    margin:auto;
+    height: auto;
+    max-height: 15em;
+}
+
+#introCard{
+    background-color: #98a2db;
+}
+
+#expCard{
+    background-color: #9acffa;
+}
+
+#projectCard{
+    background-color: #feaa8f;
+}
+
+#contactCard{
+    background-color: #dbefdc;
+}
+
+.card-header{
+    border-bottom: none;
+}
+
+
+#introP{
+    padding: 0.2% 0.5% 0 0.5%;
+    color:#5a5a5a;
+    font-family: 'Poppins', sans-serif;
+}
+
+#aboutMyselfBtn{
+    margin-top:1%;
+}
+
+a {
+    color: #26A69A;
+}
+
+a:hover {
+    color: #26A69A;
+}
+
+.btn-primary {
+    background-color: #26A69A;
+    border-color: #26A69A;
+}
+
+.btn-primary:hover {
+    background-color: #26A69A;
+    border-color: #26A69A;
+}
+
+.nav-link{
+    color: black;
+}
+
+.expHeader{
+    margin-bottom: 0.5%;
+    font-size: 40px;
+    font-size: bold;
+}
+
+#contactMeSpan{
+    padding: 0.2% 0.5% 0 0.5%;
+    background-color: #F2F2F2;
+    color:#5a5a5a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+#contactDiv{
+    margin: 0.5%;
+    padding: 0.2% 0.5% 0 0.5%;
+    background-color: #F2F2F2;
+}
+
+#contactForm{
+    text-align: center;
+}
+
+#workInProgress{
+    text-align: center;
+}
+
+.progress{
+    height: 30px;
+}
+
+.progress-bar-animated{
+    width: 57%;
+}
+
+.progress-bar{
+    background-color: #26A69A;
+}
+
+.inputRow{
+    margin-bottom: 1%;
+}
+
+#contactNameInputRow{
+    margin-top: 1%;
+}
+
+#contactBtn{
+    margin-bottom: 1%;
+    padding-right: 15px;
+}
+
+#personalProjectSection{
+    margin-bottom: 2%;
+}
+
+.customBadges{
+    font-size:10px;
+}
+
+
+/* iPhone 5/SE ----------- */
+@media only screen and 
+    (min-device-width: 320px) and 
+    (max-device-height: 568px) and 
+    (orientation : portrait)
+{
+    .mainSection{
+        padding: 10% 0 0 0;
+        height: 600px;
+    }
+
+    #quickIntro{
+        width: 90%;
+        height: 90%;
+    }
+
+    #introTitles{
+        text-align: center;
+    }
+
+    #positionTitle{
+        font-size: 13px;
+    }
+
+    #universityTitle{
+        font-size: 10px;
+    }
+
+    .icons i{
+        text-align:center;
+    }
+}
+
+/* iPhone 6/7/8 ----------- */
+@media only screen and 
+    (min-device-width: 375px) and 
+    (max-device-height: 667px) and 
+    (orientation : portrait)
+{
+    .mainSection{
+        padding: 10% 0 0 0;
+        height: 620px;
+    }
+
+    #quickIntro{
+        width: 90%;
+        height: 90%;
+    }
+
+    #introTitles{
+        text-align: center;
+    }
+
+    #positionTitle{
+        font-size: 16px;
+    }
+
+    #universityTitle{
+        font-size: 11px;
+    }
+}
+
+/* iPhone 6/7/8 plus ----------- */
+@media only screen and 
+    (min-device-width: 414px) and 
+    (max-device-height: 736px) and
+    (-webkit-device-pixel-ratio: 3)
+{
+    .mainSection{
+        padding: 10% 0 0 0;
+        height: 650px;
+    }
+    
+    #quickIntro{
+        width: 90%;
+        height: 90%;
+    }
+
+    #introTitles{
+        text-align: center;
+    }
+
+    #positionTitle{
+        font-size: 20px;
+    }
+
+    #universityTitle{
+        font-size: 12px;
+    }
+}
+
+/* iPhone X ----------- */
+@media only screen and 
+    (min-device-width: 375px) and 
+    (max-device-height: 812px) and 
+    (orientation : landscape) and
+    (-webkit-device-pixel-ratio: 3)
+{     
+    .mainSection{
+        padding: 10% 0 0 0;
+        height: 1000px;
+    }
+     
+    /* Styles */
+    #quickIntro{
+        width: 90%;
+        height: 80%;
+    }
+
+    #universityTitle{
+        font-size: 15px;
+    }
+
+    #introTitles{
+        text-align: center;
+    }
+}
+    
+@media only screen and 
+    (min-device-width: 375px) and 
+    (max-device-width: 375px) and
+    (max-device-height: 812px) and 
+    (orientation : portrait) and 
+    (-webkit-device-pixel-ratio: 3)
+{
+    .mainSection{
+        padding: 10% 0 0 0;
+        height: 720px;
+    }
+
+    /* Styles */
+    #quickIntro{
+        width: 80%;
+        height: 80%;
+    }
+
+    #NameTitle{
+        font-size: 40px;
+    }
+
+    #introTitles h5{
+        width: 100%;
+    }
+
+    #positionTitle{
+        font-size: 25px;
+    }
+
+    #universityTitle{
+        font-size: 15px;
+    }
+
+    .msftJobInfo{
+        background-position: -630px;
+    }
+
+    .sapJobInfo{
+        background-position: left;
+    }
+
+    .awsJobInfo{
+        background-position: -120px;
+    }
+    
+    #accordion button{
+        text-align: center;
+    }
+}
+
+/* 2436x1125px at 458ppi */
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (orientation : portrait) 
+    and (-webkit-device-pixel-ratio : 3) { 
+        .mainSection{
+            padding: 10% 0 0 0;
+            height: 700px;
+        }
+    
+        /* Styles */
+        #quickIntro{
+            width: 80%;
+            height: 90%;
+        }
+    
+        #NameTitle{
+            font-size: 40px;
+        }
+    
+        #introTitles h5{
+            width: 100%;
+        }
+    
+        #positionTitle{
+            font-size: 25px;
+        }
+    
+        #universityTitle{
+            font-size: 15px;
+        }
+    
+        .msftJobInfo{
+            background-position: -630px;
+        }
+    
+        .sapJobInfo{
+            background-position: left;
+        }
+    
+        .awsJobInfo{
+            background-position: -120px;
+        }
+        
+        #accordion button{
+            text-align: center;
+        }
+}
+
+/* 1792x828px at 326ppi */
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (orientation : portrait) 
+    and (-webkit-device-pixel-ratio : 2) {
+
+        .mainSection{
+            padding: 10% 0 0 0;
+            height: 770px;
+        }
+    
+        /* Styles */
+        #quickIntro{
+            width: 80%;
+            height: 80%;
+        }
+    
+        #NameTitle{
+            font-size: 40px;
+        }
+    
+        #introTitles h5{
+            width: 100%;
+        }
+    
+        #positionTitle{
+            font-size: 25px;
+        }
+    
+        #universityTitle{
+            font-size: 15px;
+        }
+    
+        .msftJobInfo{
+            background-position: -630px;
+        }
+    
+        .sapJobInfo{
+            background-position: left;
+        }
+    
+        .awsJobInfo{
+            background-position: -120px;
+        }
+        
+        #accordion button{
+            text-align: center;
+        }
+}
+
+/* 2688x1242px at 458ppi */
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (orientation : portrait) 
+    and (-webkit-device-pixel-ratio : 3) { 
+        .mainSection{
+            padding: 10% 0 0 0;
+            height: 770px;
+        }
+    
+        /* Styles */
+        #quickIntro{
+            width: 80%;
+            height: 80%;
+        }
+    
+        #NameTitle{
+            font-size: 40px;
+        }
+    
+        #introTitles h5{
+            width: 100%;
+        }
+    
+        #positionTitle{
+            font-size: 25px;
+        }
+    
+        #universityTitle{
+            font-size: 15px;
+        }
+    
+        .msftJobInfo{
+            background-position: -630px;
+        }
+    
+        .sapJobInfo{
+            background-position: left;
+        }
+    
+        .awsJobInfo{
+            background-position: -120px;
+        }
+        
+        #accordion button{
+            text-align: center;
+        }
+}
+
+/* iPad */
+@media only screen and 
+    (min-device-width: 768px) and 
+    (max-device-width: 768px) and
+    (max-device-height: 1024px)
+{
+    .mainSection{
+        padding: 10% 0 0 0;
+        height: 950px;
+    }
+
+    /* Styles */
+    #quickIntro{
+        width: 90%;
+        height: 80%;
+    }
+
+    #introTitles{
+        text-align: center;
+    }
+
+    #introTitles h5{
+        width: 100%;
+    }
+     
+    #positionTitle{
+        font-size: 20px;
+    }
+
+    #universityTitle{
+        font-size: 14px;
+    }
+
+    .msftJobInfo{
+        background-position: -650px;
+    }
+
+    .sapJobInfo{
+        background-position: left;
+    }
+
+    .awsJobInfo{
+        background-position: -120px;
+    }
+    
+}
+
+/* iPad Pro */
+@media only screen and 
+    (min-device-width: 1024px) and 
+    (max-device-width: 1024px) and
+    (max-device-height: 1366px)
+{
+    .mainSection{
+        padding: 10% 0 0 0;
+        height: 1250px;
+    }
+
+    /* Styles */
+    #quickIntro{
+        width: 90%;
+        height: 80%;
+    }
+
+    #introTitles{
+        text-align: center;
+    }
+
+    #introTitles h5{
+        width: 100%;
+    }
+     
+    #positionTitle{
+        font-size: 25px;
+    }
+
+    #universityTitle{
+        font-size: 18px;
+    }
+
+    .msftJobInfo{
+        background-position: -650px;
+    }
+
+    .sapJobInfo{
+        background-position: left;
+    }
+
+    .awsJobInfo{
+        background-position: -120px;
+    }
+    
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background-color: #495057;
+    color: white;
+}
+
+#footerDiv{
+    padding: 0% 10% 1% 10%;
+}
+
+#developedBy{
+    font-size: 14px;
+}
+
+#v1Span{
+    font-size: 12px;
+}

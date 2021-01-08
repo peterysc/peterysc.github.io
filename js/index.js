@@ -1,37 +1,26 @@
-$("#profileDiv").hover(displayText, hideText);
-$("#portfolioDiv").hover(displayText, hideText);
-$("#resumeDiv").hover(displayText, hideText);
-$("#contactDiv").hover(displayText, hideText);
+$(document).ready(function(){
 
-function displayText(){
-	var textChild = $(this).children();
-	var textChildId = textChild.attr("id");
-	$("#"+textChildId).css('visibility','visible');
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 50) {
+			$('#back-to-top').fadeIn();
+		} else {
+			$('#back-to-top').fadeOut();
+		}
+	});
+		
+	// scroll body to 0px on click
+	$('#back-to-top').click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+			}, 200);
+		return false;
+	});
 
-	// $(".actualText").css('opacity','100 !important')
-}
-
-function hideText(){
-	var textChild = $(this).children();
-	var textChildId = textChild.attr("id");
-	$("#"+textChildId).css('visibility','hidden')
-}
-
-$("#linkedInAddr").tooltip({
-	show: {
-        effect: "slideDown",
-        delay: 250
-    }
-})
-
-$("#githubAddr").tooltip({
-	show: {
-        effect: "slideDown",
-        delay: 250
-    }
-})
-
-$("#profileText").click(function(){
-	console.log("clicked")
-	$("#myModal").modal('show');
+	$('#aboutMyselfBtn').click(function() {
+		$('#aboutMySelfModal').modal('show');
+	});
+	
+	$('.modalClose').click(function(){
+		$('#aboutMySelfModal').modal('hide');
+	})
 });
