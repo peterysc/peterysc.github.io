@@ -23,15 +23,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-186044435-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-186044435-1');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PS6B2CG');
+    </script>
+    <!-- End Google Tag Manager -->
+
 </head>
 
 <body>
-    <div class="mainSection container-fluid">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PS6B2CG" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="mainSection">
         <div id="quickIntro" class="row">
-            <div id="introPicDiv" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5 col-xxl-5" > 
+            <div id="introPicDiv" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-5" > 
                 <img id="quickIntroPic" class="rounded-circle" src="assets/mainPic2.png" data-holder-rendered="true">
             </div>
-            <div id="introTitles" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-7 col-xxl-7">
+            <div id="introTitles" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-7">
                 <h2 id="NameTitle">Peter Chung</h2>
                     <span id="positionTitle"><strong>SWE II @ Microsoft</strong></span>
                     <br>
@@ -121,6 +145,7 @@
                     <li>Implemented REST APIs to retrieve data from SAP HANA and applied MVC design pattern to display and filter data through SAP PBC UI</li>
                 </ul>
             </div>
+        </div>
     </div>
 
     <div class="jumbotron jumbotron-fluid">
@@ -260,7 +285,6 @@
                   </div>
               </div>
         </div>
-        
     </div>
     
     <!-- Modal -->
@@ -316,8 +340,8 @@
         </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous" defer></script>
     <script src="js/index.js"></script>
 
 </body>
